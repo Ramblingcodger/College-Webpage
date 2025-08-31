@@ -5,7 +5,7 @@ body {
 }
 
 header, footer {
-  background: #003366;
+  background: Midnightblue;
   color: white;
   text-align: center;
 }
@@ -18,14 +18,13 @@ header, footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1em;
+  padding: 16px;
 }
 
 .header-info h1 {
-  margin: 0.2em 0;
+  margin: 3.2px 0;
 }
 
-/* Navigation Bar */
 nav {
   background: #002244;
 }
@@ -33,7 +32,7 @@ nav {
 nav ul {
   list-style: none;
   margin: 0;
-  padding: 0.5em;
+  padding: 8px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -55,11 +54,10 @@ nav ul li a.active {
   text-decoration: underline;
 }
 
-/* Dropdown Styles */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #002244;
+  background-color: navy;
   min-width: 180px;
   box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
   z-index: 1;
@@ -79,33 +77,33 @@ nav ul li a.active {
 }
 
 .dropdown-content li a:hover {
-  background-color: #004080;
+  background-color: darkblue;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* Sections */
+
 .news, main {
   padding: 20px;
   text-align: center;
 }
 
-/* Footer */
+
 footer {
-  padding: 1em;
+  padding: 16px;
 }
 
 footer a {
-  color: #ffcc00;
+  color: tan;
 }
 
 footer a:hover {
   text-decoration: underline;
 }
 
-/* Responsive Design */
+
 @media (max-width: 600px) {
   nav ul {
     flex-direction: column;
@@ -115,4 +113,5 @@ footer a:hover {
     position: static;
     box-shadow: none;
   }
+
 }
