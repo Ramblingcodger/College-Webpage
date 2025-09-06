@@ -1,0 +1,125 @@
+body,h1,h2,p,ul,li{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+header { 
+background-color: #333; 
+color: white; 
+text-align: center; 
+padding: 16px; 
+display: flex; 
+align-items: center; 
+justify-content: space-between; 
+} 
+
+.logo img { 
+max-width: 100px; 
+height: auto; 
+} 
+
+.header-content { 
+text-align: left; 
+} 
+ 
+ 
+nav ul{ 
+background-color: #444;
+display: flex;
+margin: 0;
+padding: 0;
+justify-content: center;
+list-style: none; 
+}
+
+nav ul li{
+  margin-top: 0 15px;
+
+}
+
+nav ul li a{
+  color: #333;
+  text-decoration: none;
+}
+
+.menu { 
+list-style: none; 
+display: flex; 
+justify-content: center; 
+padding: 16px 0; 
+} 
+
+.menu li { 
+margin: 0 16px; 
+position: relative; 
+} 
+
+.menu a { 
+color: white; 
+text-decoration: none; 
+transition: color 0.3s; 
+} 
+
+.menu a:hover { 
+color:orange; 
+} 
+
+.submenu-content { 
+display: none; 
+position: absolute; 
+top: 100%; 
+left: 0; 
+background-color: #444; 
+z-index: 1; 
+} 
+
+.submenu:hover .submenu-content { 
+display: block; 
+} 
+
+main { 
+padding: 32px; 
+} 
+
+.department { 
+margin-bottom: 32px; 
+} 
+ 
+ 
+footer { 
+text-align: center; 
+padding: 16px 0; 
+background-color: #444; 
+color: white; 
+} 
+
+.footer-background{
+  background: url("nitte.jpg") no-repeat center;
+  background-size:auto ;
+  height:400px;
+  width: 100%;
+}
+
+
+
+
+.social-links a { 
+color:white; 
+text-decoration: none; 
+margin: 0 10px; 
+} 
+
+@media screen and (max-width: 768px) { 
+header { 
+flex-direction: column; 
+} 
+.logo { 
+margin-bottom: 16px; 
+} 
+}
+
+
