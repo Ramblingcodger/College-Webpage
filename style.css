@@ -19,7 +19,7 @@ justify-content: space-between;
 
 .logo img { 
 max-width: 800px; 
-height: 250; 
+height: 250px; 
 } 
 
 .header-content { 
@@ -121,6 +121,7 @@ flex-direction: column;
 margin-bottom: 16px; 
 } 
 }
+
 
 
 
